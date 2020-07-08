@@ -1,0 +1,2 @@
+(this["webpackJsonpbellaroseee-app"]=this["webpackJsonpbellaroseee-app"]||[]).push([[0],[,,,function(e,n,t){e.exports=t(10)},,,,,function(e,n,t){},function(e,n,t){},function(e,n,t){"use strict";t.r(n);var a=t(0),r=t.n(a),l=t(2),c=t.n(l);t(8),t(9);var p=function(){return r.a.createElement("div",{className:"App"},r.a.createElement("header",{className:"App-header"},r.a.createElement("p",null,"in progress")))};c.a.render(r.a.createElement(r.a.StrictMode,null,r.a.createElement(p,null)),document.getElementById("root"))}],[[3,1,2]]]);
+//# sourceMappingURL=main.71cd4584.chunk.js.map
