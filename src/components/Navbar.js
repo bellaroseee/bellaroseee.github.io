@@ -15,7 +15,7 @@ class Navbar extends Component {
                     <NavbarBootstrap.Collapse id="basic-navbar-nav">
                     <Nav
                          className="ml-auto"
-
+                         activeKey={window.location.pathname}
                     >
                         <Nav.Link href="/home">Home</Nav.Link>
                         <Nav.Link href="/projects">Projects</Nav.Link>

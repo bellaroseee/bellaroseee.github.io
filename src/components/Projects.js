@@ -23,12 +23,13 @@ class Projects extends Component {
         let length = projectList.length;
         let items = [];
         for(let i = 0; i < length; i++) {
-            items.push(<ProjectItem projectName={projectList[i]["project-name"]}
+            items.push(<ProjectItem key={i}
+                                    projectName={projectList[i]["project-name"]}
                                     projectDesc={projectList[i]["project-description"]}
             />);
         }
         return(
-                <CardDeck>
+                <CardDeck className={"justify-content-md-center"}>
                     {items}
                 </CardDeck>
             );
