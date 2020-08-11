@@ -1,1 +1,0 @@
-Hello, I am Bella Rose, a fourth-year CSE student at the University of Washington
