@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Button from "react-bootstrap/Button";
-import image from "../download.jpg";
 import '../css/ProjectItem.css';
 
 class ProjectItem extends Component {
