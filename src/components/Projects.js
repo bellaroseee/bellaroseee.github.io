@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Helmet} from "react-helmet";
 import Container from 'react-bootstrap/Container';
 import CardDeck from 'react-bootstrap/CardDeck';
 import ProjectItem from "./ProjectItem";
@@ -23,6 +24,7 @@ class Projects extends Component {
         let items = [];
         for(let i = 0; i < length; i++) {
             items.push(<ProjectItem projectName={projectList[i]["project-name"]}
+                                    projectDesc={projectList[i]["project-description"]}
             />);
         }
         return(
@@ -35,7 +37,15 @@ class Projects extends Component {
 
     render() {
         return (
-            <Container className={"mt-4"}>
+            <Container className={"mt-4 mx-auto align-items-center"}>
+                <Helmet>
+                    <meta name="description"
+                          content="project page"/>
+                    <link
+                        rel="canonical"
+                        href="https://bellaroseee.github.io/projects"
+                    />
+                </Helmet>
                 {this.showProjectList()}
             </Container>
         )

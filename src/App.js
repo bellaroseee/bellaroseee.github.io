@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Helmet} from "react-helmet";
 import { BrowserRouter as Router,
         Switch,
         Route,
@@ -42,7 +43,6 @@ class App extends Component {
         items.push(<Route path="/home" component={Home} />);
         items.push(<Route exact path="/projects" component={Projects} />);
         items.push(<Route path="/about" component={About} />);
-        // items.push(<Route exact path="/projects/Search Engine" component={ProjectDisplay}/>);
 
         for(let i = 0; i < length; i++) {
             let projectName = projectList[i]["project-name"];
@@ -51,6 +51,7 @@ class App extends Component {
                         <ProjectDisplay projectName={projectName}
                                         projectURL={projectList[i]["project-url"]}
                                         projectContent={projectList[i]["project-content"]}
+                                        projectLink={projectList[i]["active-link"]}
                         />
                 </Route>
                 );
@@ -66,6 +67,13 @@ class App extends Component {
         return (
             <Router>
                 <Container fluid className="App">
+                    <Helmet>
+                        <title>Bella Rose</title>
+                        <link
+                            rel="canonical"
+                            href="https://bellaroseee.github.io/"
+                        />
+                    </Helmet>
                     <Navbar/>
                     {this.handleRoute()}
                 </Container>
