@@ -26,7 +26,6 @@ class Projects extends Component {
             items.push(<ProjectItem key={i}
                                     projectName={projectList[i]["project-name"]}
                                     projectDesc={projectList[i]["project-description"]}
-                                    projectImg={projectList[i]["project-img"]}
             />);
         }
         return(
