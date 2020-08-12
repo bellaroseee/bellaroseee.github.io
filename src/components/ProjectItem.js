@@ -9,7 +9,7 @@ import '../css/ProjectItem.css';
 class ProjectItem extends Component {
 
     render() {
-        const { projectName, projectDesc, projectImg } = this.props;
+        const { projectName, projectDesc } = this.props;
         return (
             <Link to={`/projects/${projectName}`}>
             <Card style={{width: '18rem'}}
@@ -17,7 +17,7 @@ class ProjectItem extends Component {
                   variant={"light"}
                   className={"m-1"}
             >
-                <Card.Img variant="top" src={projectImg}/>
+                <Card.Img variant="top" src={image}/>
                 <Container className={"projectItem"}>
                     <Card.Body>
                         <Card.Title>{projectName}</Card.Title>
