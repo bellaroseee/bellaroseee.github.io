@@ -1,0 +1,28 @@
+{
+  "projectList": [
+    {
+      "project-name": "Search Engine",
+      "project-description" : "memory-inverted, disk-based file system search engine with multi-threaded web server",
+      "project-content" : "https://raw.githubusercontent.com/bellaroseee/Systems-Programming/master/README.md",
+      "project-url": "https://github.com/bellaroseee/Systems-Programming",
+      "project-img" : "",
+      "active-link" : ""
+    },
+    {
+      "project-name": "Website",
+      "project-description" : "an old website project built Framework-less with HTML, CSS and JS",
+      "project-content" : "https://raw.githubusercontent.com/bellaroseee/old-website/master/README.md",
+      "project-url": "https://github.com/bellaroseee/old-website",
+      "project-img" : "https://raw.githubusercontent.com/bellaroseee/old-website/master/public/website.jpg",
+      "active-link" : "https://bellaroseee.github.io/old-website/"
+    },
+    {
+      "project-name": "Campus Map",
+      "project-description" : "a path finder Java application in React Web Application",
+      "project-content" : "https://raw.githubusercontent.com/bellaroseee/SDI-hw-campuspaths/master/README.md",
+      "project-url": "https://github.com/bellaroseee/SDI-hw-campuspaths",
+      "project-img" : "https://raw.githubusercontent.com/bellaroseee/SDI-hw-campuspaths/master/public/campus_map.jpg",
+      "active-link" : ""
+    }
+  ]
+}
