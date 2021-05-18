@@ -10,9 +10,8 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-styled-components", // css-jsx
-    "gatsby-plugin-image",
+    "gatsby-plugin-image", // StaticImages 
     "gatsby-plugin-react-helmet", // SEO -> metadata
-    "gatsby-plugin-sitemap",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {

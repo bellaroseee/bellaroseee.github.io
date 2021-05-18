@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
-// import {AnchorLink} from "gatsby-plugin-anchor-links";
-import { Wrapper, Overlay, HomeTitle, NavBar, Menu, MenuItem } from './styles'
+import { Wrapper, HomeTitle, NavBar, Menu, MenuItem } from './styles'
 
 // export const Footer = () => (
 export const Header = () => {

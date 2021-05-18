@@ -19,23 +19,7 @@ export const Wrapper = styled.div`
     position: sticky;
     top:0;
     z-index:5;
-`;
-
-export const Overlay = styled.div`
-    position: fixed;
-    background: rgba(0, 0, 0, 0.7);
-    width: 100%;
-    height: 100%;
-    display: none;
-    transition: 0.4s;
-
-    ${({ sidebar }) =>
-      sidebar &&
-      `
-        display: block;
-        z-index: 4;	
-    `}
-`;
+`
 
 export const NavBar = styled.div`
     width: 80vw;
@@ -51,7 +35,7 @@ export const HomeTitle = styled.h1`
         // opacity: 0.75;
         text-shadow: 15px 15px 50px #00000046;
     }
-`;
+`
 
 export const Menu = styled.div`
     widht: 10vh;
