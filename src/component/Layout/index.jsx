@@ -30,7 +30,7 @@ export const Wrapper = styled.div `
 export default function Layout({ children }) {
     return (
         <Wrapper>
-            <GlobalStyle theme="purple" />
+            <GlobalStyle />
             <Header />
             {children}
             <Footer />
