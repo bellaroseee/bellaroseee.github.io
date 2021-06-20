@@ -29,6 +29,7 @@ export const NavBar = styled.div`
 
 export const HomeTitle = styled.h1`
     display: inline-block;  
+    color: #551A8B;
 
     :hover {
         color: #9D62A7;
@@ -46,6 +47,7 @@ export const Menu = styled.div`
 
 export const MenuItem = styled.div`
     margin: 1rem;
+    color: #551A8B;
     a {
         text-decoration: none;
     }

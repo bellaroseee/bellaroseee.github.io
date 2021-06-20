@@ -11,6 +11,7 @@ export const Info = styled.div`
     
     h3 {
         font-size: 2.5rem;
+        color: #3B145E;
     }
 `;
 
