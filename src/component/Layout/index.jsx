@@ -4,7 +4,6 @@ import { createGlobalStyle } from "styled-components"
 import { Footer } from "../themes/Footer/index"
 import { Header } from "../themes/Header/index"
 import img from './img.jpg'
-import img2 from './img2.jpg'
 
 // creating global style
 const GlobalStyle = createGlobalStyle`
@@ -19,8 +18,12 @@ const GlobalStyle = createGlobalStyle`
         background-size: 100vw;
     }
 
-    h1, h2, h3, h4, h5, h6, a, p, div {
+    h1, h2, h3, h4, h5, h6, a {
         font-family: 'Raleway', sans-serif;
+    }
+
+    p, div {
+        font-family: 'Open Sans', sans-serif;
     }
 `
 export const Wrapper = styled.div `
