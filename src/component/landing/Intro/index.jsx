@@ -12,7 +12,7 @@ export default function Intro() {
                 </Welcome>
                 <Description>
                     <p>
-                        I'm a graduating senior at UW Paul G. Allen School of Computer Science and Engineering.
+                        I'm a fresh graduate from UW Paul G. Allen School of Computer Science and Engineering.
                         My interests are working with Big Data, Machine Learning Models, and Natural Language Processing
                     </p>
                     <p>
