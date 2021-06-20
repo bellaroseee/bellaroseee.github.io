@@ -31,8 +31,6 @@ export default function About() {
         <WrapperBackground>
             <Wrapper as={Container} id="about">
                 <Wrapper>
-                    {/* <ProfilePhoto src="https://images.unsplash.com/photo-1620175527578-3a01876fd6c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2734&q=80"/>
-                     */}
                     <ProfilePhoto >
                         <StaticImage src="./profile.jpg" imgClassName="profile-image"/>
                     </ProfilePhoto>
