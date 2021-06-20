@@ -5,7 +5,7 @@ import Card from "../../common/Card"
 import { graphql, useStaticQuery } from "gatsby"
 
 const ProjectCard = props => (
-    <Card key={props.id} as="a" href={props.url}>
+    <Card key={props.id} as="a" href={props.homepageUrl == "" ? props.url : props.homepageUrl}>
         <ProjectTitle>
             {props.title}
         </ProjectTitle>
@@ -37,7 +37,7 @@ export default function Projects() {
                 viewer {
                   starredRepositories(
                     first: 10
-                    orderBy: {field: STARRED_AT, direction: ASC}
+                    orderBy: {field: STARRED_AT, direction: DESC}
                     ) {
                         edges {
                         node {
@@ -56,6 +56,7 @@ export default function Projects() {
                             }
                             shortDescriptionHTML
                             openGraphImageUrl
+                            homepageUrl
                         }
                         }
                         totalCount
@@ -75,6 +76,7 @@ export default function Projects() {
                 <ProjectCard
                     id={node.id}
                     url={node.url}
+                    homepageUrl={node.homepageUrl}
                     title={node.name}
                     desc={node.shortDescriptionHTML}
                     languages={node.languages}
