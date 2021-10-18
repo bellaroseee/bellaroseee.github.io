@@ -6,7 +6,7 @@ import About from '../component/landing/About/index'
 import Intro from '../component/landing/Intro/index'
 import SEO from '../component/SEO/index'
 
-export const WrapperBackground = styled.div`
+const WrapperBackground = styled.div`
     width: 100vw;
     padding: 0 0 0 0;
     opacity: 1;
@@ -16,7 +16,7 @@ export const WrapperBackground = styled.div`
     flex-direction: column;
 `;
 
-export default function Home() {
+function Home() {
   return (
     <Layout>
       <SEO />
@@ -27,4 +27,6 @@ export default function Home() {
       </WrapperBackground>
     </Layout>
   )
-}
+};
+
+export default Home;

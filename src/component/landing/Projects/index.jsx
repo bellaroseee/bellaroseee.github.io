@@ -5,7 +5,7 @@ import Card from "../../common/Card"
 import { graphql, useStaticQuery } from "gatsby"
 
 const ProjectCard = props => (
-    <Card key={props.id} as="a" href={props.homepageUrl == "" ? props.url : props.homepageUrl}>
+    <Card key={props.id} as="a" href={props.homepageUrl === "" ? props.url : props.homepageUrl}>
         <ProjectTitle>
             {props.title}
         </ProjectTitle>
