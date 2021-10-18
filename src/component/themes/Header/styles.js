@@ -47,8 +47,8 @@ export const Menu = styled.div`
 
 export const MenuItem = styled.div`
     margin: 1rem;
-    color: #551A8B;
     a {
+        color: #551A8B;
         text-decoration: none;
     }
 
