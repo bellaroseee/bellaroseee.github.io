@@ -7,11 +7,11 @@ import img from './img.jpg'
 
 // creating global style
 const GlobalStyle = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
     
     body {
         width:100vw;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Comfortaa', cursive;
         margin: 0;
         padding: 0;
         background: url(${img});
@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h1, h2, h3, h4, h5, h6, a {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Comfortaa', cursive;
     }
 
     p, div {

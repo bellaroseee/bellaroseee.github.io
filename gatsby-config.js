@@ -37,7 +37,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Raleway', 'Open Sans']
+          families: ['Comfortaa', 'cursive']
         }
       }
     },
