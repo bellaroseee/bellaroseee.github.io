@@ -22,13 +22,12 @@ export const ProjectContainer = styled.div`
 `
 
 export const ProjectTitle = styled.div`
-    // color: white;
-    // margin: 0;
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: center;
     text-transform: capitalize;
+    font-family: 'Comfortaa', cursive;
 `
 
 export const ProjectImg = styled.img`
