@@ -9,7 +9,7 @@ export const WrapperBackground = styled.div`
 export const Wrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
-    // justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
 `;
 
@@ -53,11 +53,14 @@ export const Socials = styled.div`
 `
 
 export const Description = styled.div`
-    line-height: 1.5rem;
+    // line-height: 1.5rem;
     width: 60%;
 
-    h2, h3 {
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
         font-size: 1rem;
-        text-transform: uppercase;
+        // text-transform: uppercase;
     }
 `

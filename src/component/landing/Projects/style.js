@@ -54,8 +54,9 @@ export const Languages = styled.div`
 `
 
 export const LanguageItem = styled.div`
+    color: black;
     font-size: 0.75rem;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    background-color: ${({ color = 0 }) => color};
+    // background-color: ${({ color = 0 }) => color};
     border-radius: 54px;
 `

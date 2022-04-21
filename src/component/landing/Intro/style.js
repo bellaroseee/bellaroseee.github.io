@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    height: 90vh;
+    height-min: 95vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -13,14 +13,19 @@ export const InnerWrapper = styled.div`
 `
 
 export const Welcome = styled.div`
-    padding-right: 2rem;
+    padding-top: 10vh;
     display: flex;
-    text-align: right;
+    text-align: left;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-end;
+    width: 60vw;
+
+    p {
+        font-size: 1.25rem;
+    }
     h1 {
         font-size: 5rem;
+        margin: 0px;
         background: -webkit-linear-gradient(96deg, #baa1ceD9 0%, #853ba572 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -28,12 +33,12 @@ export const Welcome = styled.div`
 `;
 
 export const Description = styled.div `
-    padding-right: 2rem;
-    padding-left: 5rem;
+    // padding-right: 2rem;
+    // padding-left: 5rem;
     width: 60vw;
     display: flex;
-    text-align: right;
+    text-align: left;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-end;
+    // align-items: flex-end;
 `

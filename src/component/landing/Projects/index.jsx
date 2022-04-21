@@ -9,13 +9,14 @@ const ProjectCard = props => (
         <ProjectTitle>
             {props.title}
         </ProjectTitle>
-        <ProjectImg src={props.img} />
+        <ProjectImg src={props.img} alt={props.title}/>
         <ProjectDescription>
             {props.desc}
         </ProjectDescription>
         <Languages>
             {props.languages.edges.map(({ node }) => (
-                <LanguageItem key={node.id} color={node.color}>
+                // <LanguageItem key={node.id} color={node.color}>
+                <LanguageItem key={node.id}>
                     {node.name}
                 </LanguageItem>
             ))}

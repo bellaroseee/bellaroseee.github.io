@@ -10,20 +10,22 @@ const GlobalStyle = createGlobalStyle`
     @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
     
     body {
-        width:100vw;
+        width: 100vw;
         font-family: 'Comfortaa', cursive;
         margin: 0;
         padding: 0;
         background: url(${img});
-        background-size: 100vw;
+
+        @media (min-width: 800px) {
+            background-size: 100vw;
+        }
+        @media (max-width: 800px) {
+            background-size: 100vh;
+        }
     }
 
-    h1, h2, h3, h4, h5, h6, a {
+    h1, h2, h3, h4, h5, h6, a, p, div {
         font-family: 'Comfortaa', cursive;
-    }
-
-    p, div {
-        font-family: 'Open Sans', sans-serif;
     }
 `
 export const Wrapper = styled.div `

@@ -1,29 +1,22 @@
 import React from "react"
-import { Wrapper, Welcome, Description, InnerWrapper } from "./style"
+import { Wrapper, Welcome, InnerWrapper } from "./style"
+import SubIntro from '../SubIntro/index'
 
 export default function Intro() {
     return (
         <Wrapper>
             <InnerWrapper>
                 <Welcome>
+                    <p>Hi, I am</p>
                     <h1>
-                        Welcome
+                        Bella Rose
                     </h1>
+                    <h2>
+                        Aspiring data scientist, machine learning and natural language processing enthusiast
+                    </h2>
                 </Welcome>
-                <Description>
-                    <p>
-                        I'm a fresh graduate from UW Paul G. Allen School of Computer Science and Engineering.
-                        My interests are working with Big Data, Machine Learning Models, and Natural Language Processing
-                    </p>
-                    <p>
-                        I am sharing some of my most memorable projects and the projects that I'm working on here. 
-                    </p>
-                    <p>
-                        In my free time, I like to take a walk in the parks and watching cat videos. 
-                        I like painting and making art journal ocassionally. 
-                    </p>
-                </Description>
             </InnerWrapper>
+            <SubIntro />
         </Wrapper>
     )
 }

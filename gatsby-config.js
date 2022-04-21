@@ -5,7 +5,7 @@ require('dotenv').config({
 module.exports = {
   siteMetadata: {
     title: "Bella Rose",
-    description: "aspired data scientist, machine learning and natural language processing enthusiast from UW CSE",
+    description: "aspiring data scientist, machine learning and natural language processing enthusiast from UW CSE",
     url: "https://bellaroseee.github.io",
   },
   plugins: [

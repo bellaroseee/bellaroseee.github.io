@@ -29,16 +29,14 @@ const ListLink = props => (
 export default function About() {
     return (
         <WrapperBackground>
-            <Wrapper as={Container} id="about">
+            <Wrapper as={Container} id="contact">
                 <Wrapper>
-                    <ProfilePhoto >
+                    {/* <ProfilePhoto >
                         <StaticImage src="./profile.jpg" imgClassName="profile-image"/>
-                    </ProfilePhoto>
+                    </ProfilePhoto> */}
                     <Description>
-                        <h2>Bella Rose</h2>
-                        <h3>Bachelor of Computer Science<br/>
-                        University of Washington 2021</h3>
-                        <p>Aspired data scientist, machine learning and natural language processing enthusiast</p>
+                        <h2>Get In Touch</h2>
+                        <h3>I am looking for entry-level opportunities</h3>
                     </Description>
                     <ListLink />
                 </Wrapper>
